@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head><!-- Encabezado de la página  -->
+        <!-- Título de la página  -->
         <title>Mi página</title>
+
+        <!-- Hoja de CSS a utilizar  -->
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <h1>Título 1</h1>
+    <body><!-- Cuerpo de la página  -->
+
+        <!-- Etiquetas de título  -->
+        <div id="div1">
+            <h1 id="titulo1">Título 1</h1>
+        </div>
+        
         <h2>Título 2</h2>
 
         <h6>Título 6</h6>
         
+        <!-- Párrafo  -->
         <b><p>Esto es un párrafo</p></b>
+        
+        <!-- Etiqueta de salto de línea  -->
+        <br>
 
         <b>
             <i>
-                <p>Texto de ejemplo<sub>5</sub> </p>
+                <p id="texto_unico">Texto de ejemplo<sub>5</sub> </p>
             </i>
         </b>
 
+        <!-- Link (Para redireccionar)  -->
+       <a id="link1" href="https://portal.ingenieria.usac.edu.gt">Dale click aquí</a> 
+       <br>
+        
+        <!-- Colocar una imagen  -->
+       <img id="moto" src="./imgs/moto.webp">
 
-       <a href="https://portal.ingenieria.usac.edu.gt">Dale click aquí</a> 
 
-
-       <img src="./imgs/moto.webp">
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Título 1</th>
+        <!-- Tabla  -->
+        <table class="default">
+            <thead> <!-- Encabezado Tabla  -->
+                <tr> <!-- Fila  -->
+                    <th>Título 1</th> <!-- Columna  -->
                     <th>Título 2</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody> <!-- Cuerpo de la tabla  -->
                 <tr>
                     <td>columna 1</td>
                     <td>columna2</td>
@@ -43,6 +58,7 @@
             </tbody>
         </table>
 
+        <!-- Botón  -->
         <button>Soy un botón</button>
 
         <p>Texto de prueba</p>

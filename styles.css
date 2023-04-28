@@ -6,6 +6,36 @@ p {
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#texto_unico {
+    color: blue;
+    border: 0px;
     margin-top: 100px;
-    margin-bottom: 100px;
+}
+
+#titulo1 {
+    text-align: center;
+    border: 1px solid;
+    width: 500px;
+}
+
+#div1 {
+    /* Estos dos atributos centran todo lo que está en el div */
+    display: flex;
+    justify-content: center;
+}
+
+#moto {
+    width: 200px;
+    /*
+    Si se utilizan los dos, se puede deformar la imagen
+    De preferencia utilizar sólo uno de los dos (width o height)
+
+    heigth: 100px
+    */
+}
+
+table {
+    border: 1px solid;
 }
