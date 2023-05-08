@@ -36,6 +36,23 @@ p {
     */
 }
 
-table {
-    border: 1px solid;
+table, th, td {
+    border: 1px solid red;
+}
+
+
+body {
+    background-color: rgb(204, 240, 235);
+    /*background-image: url("./imgs/moto.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+    /*Deja fija la imagen para que no se mueva al desplazar la página*/
+    background-attachment: fixed;
+}
+
+
+#tablaB {
+    width: 800px;
 }
